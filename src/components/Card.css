@@ -2,12 +2,14 @@
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
+	max-height: 80vh;
 }
 .card img {
 	border: 2px solid #fff;
 	border-radius: 0.5rem;
 	display: block;
 	margin: 1rem auto;
+	width: 60%;
 }
 @media (max-width: 915px) {
 	.card img {
@@ -39,9 +41,4 @@
 .flipped .card-back {
 	transform: rotateY(90deg);
 	transition: all 0.3s ease-in;
-}
-@media (max-width: 915px) {
-	.card img {
-		width: 50%;
-	}
 }

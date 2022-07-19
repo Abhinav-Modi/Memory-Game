@@ -1,7 +1,6 @@
 .App {
-	max-width: 1200px;
+	max-width: 800px;
 	margin: 40px auto;
-	max-height: 100vh;
 }
 button {
 	margin: 2rem auto;
@@ -20,9 +19,33 @@ button:hover {
 	background: #c23866;
 	color: #fff;
 }
+.App p {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #c23866;
+	text-align: center;
+}
 .card-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer .name p {
+	font-size: 1em;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+.footer-link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+	transition: all 0.3s ease-in-out;
+	margin: 1rem;
+}
+.footer-link:hover {
+	color: #c23866;
 }
 @media (max-width: 915px) {
 	.card-grid {
